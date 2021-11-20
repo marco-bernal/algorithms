@@ -15,7 +15,7 @@ class FactorialTest {
     }
 
     @Test
-    void shouldGetFactprialForAGivenNumber() {
+    void shouldGetFactorialForAGivenNumber() {
         //given
         int number = 5;
 
