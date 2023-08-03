@@ -1,4 +1,4 @@
-package com.mab.algorithms;
+package com.mab;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

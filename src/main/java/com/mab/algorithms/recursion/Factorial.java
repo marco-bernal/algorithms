@@ -1,5 +1,10 @@
 package com.mab.algorithms.recursion;
 
+import lombok.extern.slf4j.Slf4j;
+
+//TODO: Add explanation and way to solve it
+
+@Slf4j
 class Factorial {
 
     int getFactorial(int number) {
@@ -8,6 +13,7 @@ class Factorial {
             return 1;
         }//recursive case
         else {
+            log.info("Calling myself. number: {}", number);
             return number * getFactorial(number - 1);
         }
     }
